@@ -55,10 +55,10 @@ function polybius(input, encode = true) {
                         output += key;
                     }
                 }
-            } output += " ";              
+            } output += " ";
         }
         return output.slice(0, -1);
     }
-}
+} console.log(polybius("A message"))
 
 module.exports = polybius;

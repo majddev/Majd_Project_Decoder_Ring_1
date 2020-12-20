@@ -1,12 +1,9 @@
-// Write your tests here!
-
 const expect = require("chai").expect;
 const substitution = require("../src/substitution");
 
 describe ("substitution", () => {
 
     it("should return false if the given alphabet is not exactly 26 characters long.", () => {
-
         const expected = false;
         const actual = substitution("thinkful", "abcd");
         expect(actual).to.equal(expected);
@@ -25,7 +22,6 @@ describe ("substitution", () => {
     });
 
     it("should return false if the given alphabet has dublicate characters", () => {
-
         const expected = false;
         const actual = substitution("thinkful", "xxxxvvvvvyyy");
         expect(actual).to.equal(expected);

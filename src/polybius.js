@@ -59,6 +59,6 @@ function polybius(input, encode = true) {
         }
         return output.slice(0, -1);
     }
-} console.log(polybius("A message"))
+}
 
 module.exports = polybius;
